@@ -7,6 +7,7 @@ on:
 env:
   MONGODB_DB_NAME: cluster0
 jobs:
+  environment: testing
   test:
     env:
       MONGODB_CLUSTER_ADDRESS: cluster0.mdewl2e.mongodb.net
